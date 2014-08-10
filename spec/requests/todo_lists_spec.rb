@@ -7,5 +7,6 @@ describe "TodoLists" do
       get todo_lists_path
       response.status.should be(200)
     end
+
   end
 end
